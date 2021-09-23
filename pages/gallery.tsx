@@ -7,7 +7,6 @@ import gallery_data from "../data/gallery_data.json";
 
 // Components
 import Item from "../components/elements/gallery/Item";
-import Slideshow from"../components/elements/gallery/Slideshow";
 
 interface ComponentProps {
   launches : any
