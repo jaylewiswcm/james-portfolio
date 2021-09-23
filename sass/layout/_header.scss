@@ -1,0 +1,39 @@
+header {
+    height: 70px;
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    nav {
+      width: 100%;
+      display: flex;
+      align-items: center;
+      padding-right:25px;
+      ul {
+        display: flex;
+        margin-left: auto;
+        li {
+          list-style-type: none;
+          padding:5px;
+          a {
+            color: black;
+            font: size 18px;
+            text-decoration: none;
+            margin: 0 5px;
+            transition: 0.2s;
+          }
+          a:hover {
+            color: pink;
+          }
+        }
+        .contact-link {
+          background-color: blue;
+          padding:5px 15px;
+          border-radius: 15px;
+          margin-left: 15px;
+          a {
+            color: white;
+          }
+        }
+      }
+    }
+  }
