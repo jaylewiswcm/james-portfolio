@@ -34,7 +34,7 @@ const gallery = ({launches}: ComponentProps) => {
               <h1 className="page-title">My Gallery</h1>
               <div className="gallery-grid">
                 { gallery_data.map((item:GalleryItem) => 
-                   <Item item={item}></Item>
+                   <Item key={item.imgSrc} item={item}></Item>
                   )
                 }
                <div className="grid-item"></div>
