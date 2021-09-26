@@ -2,7 +2,7 @@ import React from 'react'
 import type { NextPage } from 'next'
 import Head from 'next/head'
 
-const about = () => {
+const contact = () => {
     return (
         <div>
         <Head>
@@ -12,8 +12,8 @@ const about = () => {
         </Head>
   
         <main>
-            <div className="about-wrapper container-regular">
-            <h1 className="page-title">About Me</h1>
+            <div className="contact-wrapper container-regular">
+            <h1 className="page-title">Contact</h1>
 
             </div>
         </main>
@@ -21,4 +21,4 @@ const about = () => {
     )
 }
 
-export default about;
+export default contact;

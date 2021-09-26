@@ -3,7 +3,7 @@ import Link from 'next/link'
 const Header = () => {
     return (
         <header>
-            <h1 className="header-title">James Thompson-Gorwill</h1>
+            <h1 className="header-title">James Thompson-Gorwill / Print Designer </h1>
             <nav>
                 <ul>
                     {/* <li><Link href="/">Home</Link></li> */}
@@ -12,7 +12,9 @@ const Header = () => {
                     <li><Link href="/about">About</Link></li>
                     {/* <li className="contact-link"><Link href="/contact">Contact</Link></li> */}
                 </ul>
-                {/* <Link href="/contact">Contact</Link> */}
+                <div className="contact-link">
+                    <Link href="/contact" >Contact</Link>
+                </div>
             </nav>
         </header>
     )

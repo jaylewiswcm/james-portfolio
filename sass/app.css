@@ -188,7 +188,9 @@ header {
 }
 
 header .header-title {
-  font-size: 20px;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Work Sans", sans-serif;
   margin: 15px auto;
 }
 
@@ -200,6 +202,7 @@ header nav {
   -webkit-box-align: center;
       -ms-flex-align: center;
           align-items: center;
+  position: relative;
 }
 
 header nav ul {
@@ -227,14 +230,19 @@ header nav ul li a:hover {
   color: pink;
 }
 
-header nav ul .contact-link {
+header nav .contact-link {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  -webkit-transform: translate(0, -50%);
+          transform: translate(0, -50%);
   padding: 5px 15px;
   border-radius: 15px;
-  float: right;
 }
 
-header nav ul .contact-link a {
-  color: white;
+header nav .contact-link a {
+  color: black;
+  font-size: 1.2rem;
 }
 
 .breadcrumb-navigation .breadcrumb {
