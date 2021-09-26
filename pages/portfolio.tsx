@@ -19,7 +19,7 @@ const portfolio = () => {
                 <div className="projects-grid">
                     <div className="project-wrapper">
                         <Link href="/portfolio/fmp-university" >
-                            <a href="/portfolio/fmp-university" className="project-link">
+                            <a className="project-link">
                             {/* <div className="overlay"></div> */}
                             <div className="project-full-width">
                             <Image

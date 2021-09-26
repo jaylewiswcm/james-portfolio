@@ -7,13 +7,13 @@ const Header = () => {
             <nav>
                 <ul>
                     {/* <li><Link href="/">Home</Link></li> */}
-                    <li><Link href="/portfolio">Portfolio</Link></li>
-                    <li><Link href="/gallery">Gallery</Link></li>
-                    <li><Link href="/about">About</Link></li>
+                    <li><Link href="/portfolio"><a>Portfolio</a></Link></li>
+                    <li><Link href="/gallery"><a>Gallery</a></Link></li>
+                    <li><Link href="/about"><a>About</a></Link></li>
                     {/* <li className="contact-link"><Link href="/contact">Contact</Link></li> */}
                 </ul>
                 <div className="contact-link">
-                    <Link href="/contact" >Contact</Link>
+                    <Link href="/contact"><a>Contact</a></Link>
                 </div>
             </nav>
         </header>

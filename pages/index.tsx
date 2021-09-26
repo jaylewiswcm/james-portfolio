@@ -18,7 +18,7 @@ const Home: NextPage = () => {
             <div className="projects-grid">
                 <div className="project-wrapper">
                     <Link href="/portfolio/fmp-university">
-                        {/* <div className="overlay"></div> */}
+                      <a className="project-link">
                         <div className="project-full-width">
                         <Image
                             alt="Final Shirt 1"
@@ -29,6 +29,7 @@ const Home: NextPage = () => {
                             className="project-hero-img"
                         />
                         </div> 
+                      </a>
                     </Link>
                     <div className="project-title">
                             <h2>FMP Univeristy</h2>
