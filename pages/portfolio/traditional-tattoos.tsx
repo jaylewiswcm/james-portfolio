@@ -139,7 +139,7 @@ const traditionalTattoos = () => {
             <div className="project-text">
                 <p>Showing off some of my illustrations looking at Japanese peonies using watercolours in two different styles. one style in the traditional tattoo style which involves the bold black lines, and the other with bright colours.</p>
             </div>
-            <BackBtn page="portfolio" text="Back to all projects"/>
+            <BackBtn page="" text="Back to all projects"/>
         </main>
       </div>
     )

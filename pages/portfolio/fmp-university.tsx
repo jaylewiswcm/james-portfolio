@@ -147,7 +147,7 @@ const fmpUniversity = () => {
                     className="project-hero-img"
                 />  
             </div> 
-            <BackBtn page="portfolio" text="Back to all projects"/>
+            <BackBtn page="" text="Back to all projects"/>
         </main>
       </div>
     )
