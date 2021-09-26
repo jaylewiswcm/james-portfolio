@@ -24,7 +24,7 @@ const fmpUniversity = () => {
                 />
             </div>
             <div className="project-text">
-               <p>The final product for my end-of-year show. To show my interest in menswear fashion I have designed this from my collection for my final project 'traditional summer'. Material is a medium-weight silk shirt, added the white border to break up the design to make it look less busy.</p>
+               <p>The final product for my end-of-year show. To show my interest in menswear fashion I have designed this from my collection for my final project &quot;traditional summer&quot;. Material is a medium-weight silk shirt, added the white border to break up the design to make it look less busy.</p>
             </div>
             <div className="portrait-images">
                 <div className="project-image-wrapper">

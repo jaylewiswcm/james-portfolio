@@ -2,6 +2,7 @@ import React from 'react'
 import type { NextPage } from 'next'
 import Head from 'next/head'
 import Image from 'next/image'
+import Link from 'next/link';
 
 const portfolio = () => {
     return (
@@ -17,7 +18,7 @@ const portfolio = () => {
             <h1>My Printed Textile Projects</h1>
                 <div className="projects-grid">
                     <div className="project-wrapper">
-                        <a href="/portfolio/fmp-university" className="project-link">
+                        <Link href="/portfolio/fmp-university">
                             {/* <div className="overlay"></div> */}
                             <div className="project-full-width">
                             <Image
@@ -29,7 +30,7 @@ const portfolio = () => {
                                 className="project-hero-img"
                             />
                             </div> 
-                        </a>
+                        </Link>
                         <div className="project-title">
                                 <h2>FMP Univeristy</h2>
                                 <p>My Final Year Piece - incoporating mens fashion and pattern design</p>
