@@ -240,6 +240,10 @@ footer ul li a:hover {
   opacity: 0.6;
 }
 
+footer ul li .active {
+  color: pink;
+}
+
 header {
   width: 100%;
   max-width: 1000px;
@@ -304,6 +308,12 @@ header nav ul li a {
 header nav ul li a:hover {
   color: pink;
   cursor: pointer;
+}
+
+header nav .active {
+  text-decoration: underline;
+  text-underline-offset: 5px;
+  color: pink;
 }
 
 header nav .contact-link {

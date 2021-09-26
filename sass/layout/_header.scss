@@ -38,7 +38,14 @@ header {
             color: pink;
             cursor: pointer;
           }
+  
         }
+      }
+      
+      .active {
+        text-decoration: underline;
+        text-underline-offset: 5px;;
+        color: pink;
       }
       .contact-link {
         position: absolute;
