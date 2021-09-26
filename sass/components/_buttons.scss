@@ -1,0 +1,50 @@
+.back-btn {
+    background-color: #07023E;
+    border: 2px solid #07023E;
+    padding: 15px 20px;
+    margin: 50px auto;
+    border-radius: 3px;
+   transition: 0.2s;
+   position: relative;
+   display: flex;
+   align-items: center;
+   justify-content: center;
+   .hover-bg {  
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    max-width:0%;
+    height: 100%;
+    background-color: $white;
+    z-index:1;
+    transition: 0.2s;
+   }
+   span {
+    color: $white;
+    font-size: 16px;
+    font-weight: 400;
+    font-family: $sans-serif;
+    text-transform: capitalize;
+    position: relative;
+    z-index:2; 
+   }
+   .arrow-svg { 
+    margin-right: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    z-index:2; 
+   }
+}
+.back-btn:hover {
+    box-shadow: 0 6px 20px rgba(7,2,62, 0.16);
+    .hover-bg {
+        max-width:100%;
+    }
+    span { 
+        color: #07023E;
+        font-weight: 500;
+    }
+}

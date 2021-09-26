@@ -1,6 +1,78 @@
 @import url("https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,800;0,900;1,200;1,300;1,400;1,600;1,700;1,800;1,900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Forum&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap");
+.back-btn {
+  background-color: #07023E;
+  border: 2px solid #07023E;
+  padding: 15px 20px;
+  margin: 50px auto;
+  border-radius: 3px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+}
+
+.back-btn .hover-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: 0%;
+  height: 100%;
+  background-color: #fff;
+  z-index: 1;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+.back-btn span {
+  color: #fff;
+  font-size: 16px;
+  font-weight: 400;
+  font-family: "Work Sans", sans-serif;
+  text-transform: capitalize;
+  position: relative;
+  z-index: 2;
+}
+
+.back-btn .arrow-svg {
+  margin-right: 15px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  position: relative;
+  z-index: 2;
+}
+
+.back-btn:hover {
+  -webkit-box-shadow: 0 6px 20px rgba(7, 2, 62, 0.16);
+          box-shadow: 0 6px 20px rgba(7, 2, 62, 0.16);
+}
+
+.back-btn:hover .hover-bg {
+  max-width: 100%;
+}
+
+.back-btn:hover span {
+  color: #07023E;
+  font-weight: 500;
+}
+
 li {
   list-style-type: none;
 }
@@ -191,7 +263,8 @@ header .header-title {
   font-size: 14px;
   font-weight: 500;
   font-family: "Work Sans", sans-serif;
-  margin: 15px auto;
+  margin: 10px auto;
+  margin-bottom: 15px;
 }
 
 header nav {
@@ -486,27 +559,12 @@ header nav .contact-link a {
   border: 2px black solid;
 }
 
-.projects-wrapper {
-  margin-top: 25px;
-}
-
-.projects-wrapper h1 {
-  margin: 0 auto;
-  font-size: 16px;
-  font-weight: 600;
-  font-family: "Work Sans", sans-serif;
-  padding: 0 25px;
-  text-transform: uppercase;
-  text-align: center;
-}
-
 .projects-grid {
   display: -ms-grid;
   display: grid;
   -ms-grid-columns: (1fr)[3];
       grid-template-columns: repeat(3, 1fr);
   width: 100%;
-  margin-top: 35px;
   gap: 25px;
   padding: 0 25px;
 }
@@ -597,12 +655,6 @@ header nav .contact-link a {
       -ms-flex-pack: center;
           justify-content: center;
   padding: 0 10%;
-  margin-top: 25px;
-}
-
-.portfolio-piece .project-title {
-  font-size: 24px;
-  font-weight: 600;
 }
 
 .portfolio-piece .project-subheadings {
@@ -619,6 +671,7 @@ header nav .contact-link a {
   height: 504px;
   position: relative;
   margin: 25px auto;
+  margin-top: 0;
 }
 
 .portfolio-piece .project-hero .project-hero-img {

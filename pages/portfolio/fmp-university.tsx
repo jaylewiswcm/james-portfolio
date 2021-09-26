@@ -2,6 +2,9 @@ import React from 'react'
 import Head from 'next/head'
 import Image from 'next/image';
 
+// Components
+import BackBtn from '../../components/elements/buttons/BackBtn'
+
 const fmpUniversity = () => {
     return (
         <div>
@@ -12,7 +15,7 @@ const fmpUniversity = () => {
         </Head>
   
         <main className="portfolio-piece container-regular">
-            <h1 className="project-title">Fmp University</h1>
+            <h1 className="page-title">Fmp University</h1>
             <div className=" project-hero">
                 <Image
                     alt="Final Shirt 1"
@@ -144,6 +147,7 @@ const fmpUniversity = () => {
                     className="project-hero-img"
                 />  
             </div> 
+            <BackBtn page="portfolio" text="Back to all projects"/>
         </main>
       </div>
     )
