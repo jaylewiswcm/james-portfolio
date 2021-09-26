@@ -15,10 +15,11 @@ const portfolio = () => {
   
         <main>
             <div className="projects-wrapper container-regular">
-            <h1>My Printed Textile Projects</h1>
+            <h1 className="page-title">Portfolio</h1>
                 <div className="projects-grid">
                     <div className="project-wrapper">
-                        <Link href="/portfolio/fmp-university">
+                        <Link href="/portfolio/fmp-university" >
+                            <a href="/portfolio/fmp-university" className="project-link">
                             {/* <div className="overlay"></div> */}
                             <div className="project-full-width">
                             <Image
@@ -30,6 +31,7 @@ const portfolio = () => {
                                 className="project-hero-img"
                             />
                             </div> 
+                            </a>
                         </Link>
                         <div className="project-title">
                                 <h2>FMP Univeristy</h2>

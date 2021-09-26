@@ -119,6 +119,13 @@ p {
   font-size: 38px;
   font-weight: 500;
   margin: 25px auto;
+  margin: 25px auto;
+  font-size: 16px;
+  font-weight: 600;
+  font-family: "Work Sans", sans-serif;
+  padding: 0 25px;
+  text-transform: uppercase;
+  text-align: center;
 }
 
 footer {
@@ -477,9 +484,11 @@ header nav ul .contact-link a {
 
 .projects-wrapper h1 {
   margin: 0 auto;
-  font-size: 28px;
+  font-size: 16px;
   font-weight: 600;
+  font-family: "Work Sans", sans-serif;
   padding: 0 25px;
+  text-transform: uppercase;
   text-align: center;
 }
 
@@ -514,15 +523,16 @@ header nav ul .contact-link a {
   position: relative;
 }
 
-.projects-grid .project-wrapper a {
+.projects-grid .project-wrapper .project-link {
   width: 100%;
   height: 540px;
   position: relative;
   cursor: pointer;
+  cursor: pointer;
 }
 
 @media (max-width: 650px) {
-  .projects-grid .project-wrapper a {
+  .projects-grid .project-wrapper .project-link {
     height: 250px;
   }
 }
