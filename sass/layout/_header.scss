@@ -1,24 +1,36 @@
 header {
-    height: 70px;
-    max-width: 1200px;
+    // height: 70px;
+    width: 100%;
+    max-width: 1000px;
+    margin: 0 auto;
     display: flex;
+    flex-direction: column;
     align-items: center;
+    justify-content: center;
+    padding: 10px 0;
+    .header-title {
+      font-size: 20px;
+      margin: 15px auto;
+    }
     nav {
       width: 100%;
       display: flex;
       align-items: center;
-      padding-right:25px;
+    
+      
       ul {
         display: flex;
-        margin-left: auto;
+        margin: 0 auto;
+        // margin-top: 10px;
         li {
           list-style-type: none;
           padding:5px;
+          margin: 0 30px;
           a {
             color: black;
-            font: size 18px;
+            font-size: 1.2rem;
             text-decoration: none;
-            margin: 0 5px;
+
             transition: 0.2s;
           }
           a:hover {
@@ -26,10 +38,10 @@ header {
           }
         }
         .contact-link {
-          background-color: blue;
           padding:5px 15px;
           border-radius: 15px;
-          margin-left: 15px;
+          // margin-left: 15px;
+          float: right;
           a {
             color: white;
           }

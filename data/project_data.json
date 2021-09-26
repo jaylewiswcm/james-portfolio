@@ -1,0 +1,28 @@
+[
+    {
+        "name" : "Univeristy fmp",
+        "description": "The final product for my end-of-year show. To show my interest in menswear fashion I have designed this from my collection for my final project 'traditional summer'. Material is a medium-weight silk shirt, added the white border to break up the design to make it look less busy.",
+        "showcasePhoto" : "",
+        "visuals" :  {
+            "clothing" : [
+                {
+                    "img" : "/project-1/visuals/clothing/shirt-final-1.jpg",
+                    "name" : "Final Shirt 1"
+                },
+                {
+                    "img" : "/project-1/visuals/clothing/shirt-final-2.jpg",
+                    "name" : "Final Shirt 2"
+                },
+                {
+                    "img" : "/project-1/visuals/clothing/shirt-final-2.jpg",
+                    "name" : "Final Shirt 2"
+                }
+            ],
+            "interior" : [
+                {
+                    "img" : ""
+                }
+            ]
+        }
+    }
+]
