@@ -780,4 +780,132 @@ header nav .contact-link .active {
   position: relative !important;
   height: unset !important;
 }
+
+#main-contact-form {
+  width: 100%;
+  max-width: 600px;
+  margin: 0 auto;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  padding: 50px 25px;
+}
+
+#main-contact-form label {
+  font-size: 1rem;
+  font-weight: 500;
+  font-family: "Work Sans", sans-serif;
+  text-transform: uppercase;
+  margin-bottom: 5px;
+}
+
+#main-contact-form input {
+  padding: 15px;
+  margin-bottom: 15px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Work Sans", sans-serif;
+  color: #07023E;
+}
+
+#main-contact-form textarea {
+  padding: 15px;
+  margin-bottom: 15px;
+  resize: none;
+  height: 200px;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Work Sans", sans-serif;
+  color: #07023E;
+}
+
+#main-contact-form .input-wrapper {
+  width: 49%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#main-contact-form .input-wrapper:first-of-type {
+  margin-right: auto;
+}
+
+#main-contact-form .textarea-wrapper {
+  width: 100%;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+#main-contact-form button {
+  background-color: #E6670A;
+  border: 2px solid #E6670A;
+  padding: 15px 20px;
+  margin-top: 25px;
+  width: 100%;
+  border-radius: 3px;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  -webkit-box-pack: center;
+      -ms-flex-pack: center;
+          justify-content: center;
+  overflow: hidden;
+  cursor: pointer;
+}
+
+#main-contact-form button .hover-bg {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  max-width: 0%;
+  height: 100%;
+  background-color: #FFEBDD;
+  z-index: 1;
+  -webkit-transition: 0.2s;
+  transition: 0.2s;
+}
+
+#main-contact-form button span {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Work Sans", sans-serif;
+  text-transform: uppercase;
+  position: relative;
+  z-index: 2;
+  letter-spacing: 2px;
+}
+
+#main-contact-form button:hover {
+  -webkit-box-shadow: 0 6px 20px rgba(7, 2, 62, 0.16);
+          box-shadow: 0 6px 20px rgba(7, 2, 62, 0.16);
+  border: 2px solid #E6670A;
+}
+
+#main-contact-form button:hover .hover-bg {
+  max-width: 110%;
+}
+
+#main-contact-form button:hover span {
+  color: #E6670A;
+  font-weight: 500;
+}
 /*# sourceMappingURL=app.css.map */
