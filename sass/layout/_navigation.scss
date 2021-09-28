@@ -10,7 +10,7 @@
             a {
                 font-size:14px;
                 font-weight: 500;
-                color: black;
+                color: $blue-800;
                 text-decoration: none;
                 text-transform: capitalize;
     
@@ -19,7 +19,7 @@
                     margin-left:  8px; 
                     font-size: 10px;
                     line-height: 1;
-                    color: black;
+                    color: $blue-800;
                     pointer-events: none;
                   }
             }
@@ -29,7 +29,7 @@
             p {
                 font-size:14px;
                 font-weight: 500;
-                color: black;
+                color: $blue-800;
                 text-decoration: none;
                 text-transform: capitalize;
                 margin: 0;

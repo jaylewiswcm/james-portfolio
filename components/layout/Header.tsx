@@ -7,7 +7,7 @@ const Header = () => {
     
     return (
         <header>
-            <h1 className="header-title">James Thompson-Gorwill / Print Designer </h1>
+            <h1 className="header-title">James Thomson-Gorwill / <span className="highlight">Print Designer</span></h1>
             <nav>
                 <ul>
                     {/* <li><Link href="/">Home</Link></li> */}

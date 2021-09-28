@@ -7,7 +7,7 @@ const Home: NextPage = () => {
   return (
     <div>
     <Head>
-      <title>Portfolio - James Thompson-Gorwill</title>
+      <title>Portfolio - James Thomson-Gorwill</title>
       <meta name="description" content="Printed Textile Designer Projects" />
       <link rel="icon" href="/favicon.ico" />
     </Head>

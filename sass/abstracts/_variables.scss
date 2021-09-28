@@ -1,17 +1,30 @@
-// Colors
-$oaktree-green: #00612a;
-
 $white: #fff;
 $black: #0a0a0a;
 
 $lighter-grey: #ECEFF2;
 $light-grey: #b1b4b6;
 
-
 $dark-grey: #616667;
 $darker-grey: #4c5151;
 
-$lazy-bg: rgba(249,209,238, 0.4);
+// Primary colors
+$blue-900: #040129;
+$blue-800: #07023E;
+
+$orange-900: #763302;
+$orange-800: #A74F0F;
+$orange-700: #BF601B;
+$orange-600: #D05F0C;
+$orange-500: #E6670A;
+$orange-400: #E3792C;
+$orange-300: #F5A265;
+$orange-200: #F8C7A2;
+$orange-100: #FFEBDD;
+
+$active-color :$orange-400;
+$hover-color :$orange-300;
+$lazy-bg: $orange-100;
+// $lazy-bg: rgba(249,209,238, 0.4);
 
 // Fonts 
 $sans-serif : 'Work Sans', sans-serif;

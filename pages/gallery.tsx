@@ -23,7 +23,7 @@ const gallery = ({launches}: ComponentProps) => {
     return (
         <div>
         <Head>
-          <title>Projects - James Thompson-Gorwill</title>
+          <title>Projects - James Thomson-Gorwill</title>
           <meta name="description" content="Printed Textile Designer Projects" />
           <link rel="icon" href="/favicon.ico" />
         </Head>

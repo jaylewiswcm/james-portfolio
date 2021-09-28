@@ -8,7 +8,7 @@ interface ComponentProps {
 }
 
 const BackBtn = ({page, text}: ComponentProps) => {
-    const [arrowColour, setArrowColour] = useState('white')
+    const [arrowColour, setArrowColour] = useState('orange')
 
     const changeArrowColour = (colour: string) => {
         setArrowColour(colour);
@@ -17,7 +17,7 @@ const BackBtn = ({page, text}: ComponentProps) => {
     return (
         // <div className="container-regular button-wrapper">
             <Link href={`/${page}`}>
-                <a className="back-btn" onMouseOver={() => changeArrowColour('blue')} onMouseOut={() => changeArrowColour('white')}> 
+                <a className="back-btn" onMouseOver={() => changeArrowColour('white')} onMouseOut={() => changeArrowColour('orange')}> 
                     <div className="hover-bg"></div>
                     <div className="arrow-svg">
                         <Image

@@ -6,7 +6,7 @@
 }
 body {
     font-family: $serif;
-    color: $black;
+    color: $blue-800;
     display: flex;
     flex-direction: column;
     font-size: 16px;
@@ -49,6 +49,7 @@ p {
     font-weight: 300;
     margin: 15px 0;
     line-height: 1.4;
+    color: $blue-800;
 }
 
 // Templates
@@ -70,7 +71,7 @@ p {
             text-decoration: none;
         }
         a:hover {
-            color: pink;
+            color: $hover-color;
         }
     }
 }
@@ -79,9 +80,8 @@ p {
     font-size: 38px;
     font-weight: 500;
     margin: 25px auto;
-
     margin: 25px auto;
-    font-size: 16px;
+    font-size: 1.2rem;
     font-weight: 600;
     font-family: $sans-serif;
     padding: 0 25px;
