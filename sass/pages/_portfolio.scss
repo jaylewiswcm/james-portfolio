@@ -5,10 +5,10 @@
     // margin-top: 35px;
     gap: 25px;
     padding: 0 25px;
-    @media (max-width: 1040px) and (min-width: 401px) {
+    @media (max-width: 1040px) and (min-width: 701px) {
         grid-template-columns: repeat(2, 1fr);
     }
-    @media (max-width: 400px) {
+    @media (max-width: 700px) {
         grid-template-columns: repeat(1, 1fr);
     }
     .project-wrapper {
@@ -59,7 +59,10 @@
     align-items: center;
     justify-content: center;
     padding: 0 10%;
-    .project-subheadings {
+    @media (max-width: 660px) {
+        padding: 0 5%;
+    }
+     .project-subheadings {
         font-size: 24px;
         text-decoration: underline;
         text-underline-offset: 4px;
@@ -80,6 +83,9 @@
     .project-text {
         padding: 50px 15%; 
         padding-bottom: 25px;
+        @media (max-width: 660px) {
+            padding: 25px 5%;
+        }
         p {
             font-size: 1.2rem;
             line-height: 1.9;
@@ -92,6 +98,12 @@
         gap: 30px;
         width: 100%;
         margin: 25px auto;
+        @media (max-width: 660px) {
+            margin: 0 5%;
+        }
+        @media (max-width: 500px) {
+            grid-template-columns: repeat(1, 1fr);
+        }
     }
     .project-grid-3-cols {
         display: grid;
@@ -100,6 +112,27 @@
         width: 100%;
         margin: 0 auto;
         // margin-bottom: 25px;
+        @media (max-width: 660px) {
+            grid-template-columns: repeat(2, 1fr);
+            gap: 15px;
+        }
+        .project-image-wrapper {
+            &:last-of-type {
+                @media (max-width: 660px) and (min-width: 416px ) {
+                    grid-column-start: 1;
+                    grid-column-end: 3;
+                    width: 80%;
+                    margin: 0 auto;
+                }
+                @media (max-width: 415px) {
+                    grid-column-start: 1;
+                    grid-column-end: 3;
+                    width: 80%;
+                    margin: 0 auto;
+                    width: 100%;
+                }
+            }
+        }
     }
     .project-small-grid {
         display: grid;
@@ -107,6 +140,15 @@
         gap: 30px;
         width: 70%;
         margin: 0 auto;
+        @media (max-width: 660px ) and (min-width: 416px){
+            width: 100%;
+            gap: 15px;
+        }
+        @media (max-width: 415px ) {
+            width: 100%;
+            gap: 15px;
+            grid-template-columns: repeat(2, 1fr);
+        }
         // margin-bottom: 25px;
     }
 }
