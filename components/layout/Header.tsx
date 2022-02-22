@@ -29,7 +29,7 @@ const Header = () => {
     return (
         <header>
             <Link  href='/' >
-                <a className="header-title">James Thomson-Gorwill / <span className="highlight">Print Designer</span></a>
+                <a className="header-title">James Thomson-Gorwill <span className='divide'>/</span> <br /><span className="highlight">Print Designer</span></a>
             </Link>
             <div className="burger-icon">
                 <button onClick={() => toggleDropDown()}>
