@@ -23,8 +23,8 @@ const about = () => {
                 height='341'
               />
             </div>
-            <p>I am a bristol-based designer; having graduated from Plymouth College of Art in 2019, where I studied (BA) Printed Textiles & Surface Pattern Design. During my time at university I learned many skills as a designer, this includes various printing techniques such as screen printing.</p>
-            <p>I create illustrative, uplifting prints using bold bright colours within my designs. </p>
+            <p>I am a Bristol-based designer; having graduated from Plymouth College of Art in 2019 with a BA (Hons) in Printed Textiles & Surface Pattern Design, I have continued to explore my passion for printed design. During my time at university, I learnt many skills that have helped me expand my design capabilities; this includes various printing techniques such as screen printing, lino printing, block-printing, as well as digital printing.</p>
+            <p>I create illustrative, uplifting prints using bold bright colours within my designs.</p>
             </div>
         </main>
       </div>
